@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fira+Sans:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap");
 
 :root {
   --mainfont: "Fira Sans", sans-serif;
+  --bannerFont: "Bungee Inline", sans-serif;
   --lightgray: #ddd;
   --darkgray: #bbb;
   --fontprimary: rgba(10, 255, 10, 0.9);
@@ -47,10 +48,12 @@ nav {
 
 .link-item-desktop {
   font-size: 25px;
+  font-family: var(--bannerFont);
   /* color: var(--fontprimary); */
-  color: #333;
+  /* color: #222; */
+  color: antiquewhite;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .menu-toggle {
@@ -110,8 +113,8 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
-  .sidebar {
-    max-width: 200px;
+  .link-item-desktop {
+    font-size: 20px;
   }
 }
 
