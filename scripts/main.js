@@ -1,8 +1,8 @@
 "use strict";
 
 const menuToggle = document.querySelector(".menu-toggle");
-const sidebar = document.querySelector(".sidebar");
+const mobileMenu = document.querySelector(".mobile-dropdown");
 menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle("is-active");
-  sidebar.classList.toggle("is-active");
+  mobileMenu.classList.toggle("is-selected");
 });

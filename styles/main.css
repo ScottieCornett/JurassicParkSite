@@ -107,6 +107,18 @@ nav {
   top: 0;
   transform: rotate(90deg);
 }
+
+.mobile-dropdown {
+  display: none;
+}
+.is-selected {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 50vh;
+  border: 1px solid black;
+  transition: 0.5s linear;
+}
 #nav-logo {
   height: 200px;
   width: 200px;
@@ -114,7 +126,7 @@ nav {
 
 @media screen and (max-width: 1024px) {
   .link-item-desktop {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
