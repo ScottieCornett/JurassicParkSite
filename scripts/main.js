@@ -2,6 +2,7 @@
 
 const menuToggle = document.querySelector(".menu-toggle");
 const mobileMenu = document.querySelector(".mobile-dropdown");
+const mobileLink = document.querySelectorAll(".link-item-mobile");
 const planEl = document.getElementById("plan-trip");
 const planDropDown = document.querySelector(".plan-drop-down");
 const navItemDesktop = document.querySelectorAll(".nav-item-desktop");

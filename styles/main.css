@@ -56,13 +56,35 @@ nav {
   font-weight: 400;
   cursor: pointer;
 }
-h1 {
-  color: white;
-  font-size: 46px;
+.container {
   z-index: 99;
 }
+h1 {
+  color: white;
+  font-size: 72px;
+  z-index: 99;
+  font-weight: 700;
+}
+.reserve {
+  color: white;
+  font-size: 30px;
+  padding: 3rem 0;
+  font-weight: 300;
+}
+.btn {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  background-color: rgb(250, 101, 1);
+  color: white;
+  cursor: pointer;
+}
 #years {
-  color: red;
+  color: rgb(250, 101, 1);
   font-style: italic;
 }
 
@@ -73,7 +95,7 @@ main section.banner {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 210px;
+  top: 20px;
   left: 0;
   right: 0;
   display: flex;
@@ -179,14 +201,16 @@ main section.banner {
 
 .mobile-dropdown {
   display: none;
-  font-size: 24px;
-  background-color: #ddd;
+  font-size: 30px;
+  background-color: #eee;
+  /* z-index: 99; */
 }
 .mobile-dropdown > a {
   text-decoration: none;
   padding: 15px 0px;
   color: var(--darkgray);
 }
+
 .is-selected {
   display: flex;
   flex-direction: column;
@@ -197,8 +221,6 @@ main section.banner {
   justify-content: space-between;
   align-items: center;
   height: 50vh;
-  border: 1px solid black;
-  transform: translateY(180deg);
 }
 #nav-logo {
   height: 200px;
@@ -214,6 +236,10 @@ main section.banner {
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
+  }
+
+  h1 {
+    font-size: 56px;
   }
 
   .sidebar {
