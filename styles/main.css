@@ -92,6 +92,7 @@ main section.banner {
   border: 2px solid black;
   display: flex;
   flex-direction: column;
+  flex-shrink: 1;
   justify-content: center;
   align-items: center;
   position: absolute;
